@@ -1,9 +1,9 @@
 <?php
 
-namespace Sunil\SecureAPI\Traits;
+namespace Sky337\SecureAPI\Traits;
 
 use Illuminate\Http\JsonResponse;
-use Sunil\SecureAPI\Classes\ApiResponse;
+use Sky337\SecureAPI\Classes\ApiResponse;
 
 trait ApiResponseTrait
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Sunil\SecureAPI\Providers;
+namespace Sky337\SecureAPI\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Sunil\SecureAPI\Http\Middleware\RoleMiddleware;
+use Sky337\SecureAPI\Http\Middleware\RoleMiddleware;
 use Illuminate\Routing\Router;
 
 class SecureAPIServiceProvider extends ServiceProvider

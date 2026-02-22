@@ -1,9 +1,9 @@
 <?php
 
-namespace Sunil\SecureAPI\Traits;
+namespace Sky337\SecureAPI\Traits;
 
-use Sunil\SecureAPI\Models\Role;
-use Sunil\SecureAPI\Models\Permission;
+use Sky337\SecureAPI\Models\Role;
+use Sky337\SecureAPI\Models\Permission;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 trait HasRoles

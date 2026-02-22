@@ -1,11 +1,11 @@
 <?php
 
-namespace Sunil\SecureAPI\Http\Middleware;
+namespace Sky337\SecureAPI\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Sunil\SecureAPI\Traits\ApiResponseTrait;
+use Sky337\SecureAPI\Traits\ApiResponseTrait;
 
 class RoleMiddleware
 {

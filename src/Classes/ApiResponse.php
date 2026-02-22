@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunil\SecureAPI\Classes;
+namespace Sky337\SecureAPI\Classes;
 
 use Illuminate\Http\JsonResponse;
 

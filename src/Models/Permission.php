@@ -1,6 +1,6 @@
 <?php
 
-namespace Sunil\SecureAPI\Models;
+namespace Sky337\SecureAPI\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;

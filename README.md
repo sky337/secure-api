@@ -31,12 +31,12 @@ If the package is not yet on Packagist, add the following to your main app's `co
 
 Then run:
 ```bash
-composer require sunil/secure-api
+composer require sky337/secure-api
 ```
 
 ### 2. Publish Configuration & Migrations
 ```bash
-php artisan vendor:publish --provider="Sunil\SecureAPI\Providers\SecureAPIServiceProvider"
+php artisan vendor:publish --provider="Sky337\SecureAPI\Providers\SecureAPIServiceProvider"
 ```
 
 ### 3. Run Migrations
@@ -58,7 +58,7 @@ The package configuration is available at `config/secure-api.php`. You can custo
 Add the `HasRoles` trait to your `User` model:
 
 ```php
-use Sunil\SecureAPI\Traits\HasRoles;
+use Sky337\SecureAPI\Traits\HasRoles;
 
 class User extends Authenticatable
 {
@@ -83,7 +83,7 @@ if ($user->hasAnyRole(['admin', 'editor'])) {
 Use the `ApiResponse` class or `ApiResponseTrait` in your controllers:
 
 ```php
-use Sunil\SecureAPI\Classes\ApiResponse;
+use Sky337\SecureAPI\Classes\ApiResponse;
 
 return ApiResponse::success($data, 'User fetched successfully');
 return ApiResponse::error('Something went wrong', 400);
@@ -120,7 +120,7 @@ Route::middleware(['role:admin,manager'])->get('/reports', [ReportController::cl
 
 ```php
 use Illuminate\Support\Facades\Route;
-use Sunil\SecureAPI\Classes\ApiResponse;
+use Sky337\SecureAPI\Classes\ApiResponse;
 
 Route::post('/login', [AuthController::class, 'login']);
 
