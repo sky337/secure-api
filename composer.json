@@ -1,5 +1,5 @@
 {
-    "name": "sunil/secure-api",
+    "name": "sky337/secure-api",
     "description": "A secure API package for Laravel with JWT and RBAC.",
     "type": "library",
     "license": "MIT",
@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sunil\\SecureAPI\\": "src/"
+            "Sky337\\SecureAPI\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sunil\\SecureAPI\\Providers\\SecureAPIServiceProvider"
+                "Sky337\\SecureAPI\\Providers\\SecureAPIServiceProvider"
             ]
         }
     }
